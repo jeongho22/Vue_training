@@ -101,7 +101,7 @@
               <hr size="5">
               <button type="button" @click="$router.push('/diet/')" class="btn btn-danger">
                 <!-- 각 컴포넌트 부분을 push(/컴포넌트 주소) 하여 이동할수 있도록 구현-->
-                브라우니 칼로리
+                브라우니 칼로리 순위
               </button>
 
             </li>
