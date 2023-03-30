@@ -48,6 +48,7 @@ export default {
       if (!this.weatherData) return '';
       const temp = (this.weatherData.main.temp-1.0) ;
 
+
       if (temp >= 27) return '민소매, 반바지, 원피스';
       if (temp >= 22) return '반팔, 얇은 셔츠, 긴팔 반바지, 면바지';
       if (temp >= 19) return '긴팔 가디건, 후드티, 면바지,슬랙스, 스키니';
@@ -55,6 +56,15 @@ export default {
       if (temp >= 11) return '두꺼운 가디건,살색 스타킹,트랜치 코트';
       if (temp >= 7) return '야상, 여러겹껴입기, 코트';
       if (temp >= 3) return ' 코트, 얇은패딩';
+
+      if (temp >= 27) return '민소매, 반바지, 원피스','나시';
+      if (temp >= 23) return '반팔, 얇은 셔츠, 긴팔 반바지, 면바지';
+      if (temp >= 20) return '긴팔 가디건, 후드티, 면바지,슬랙스, 스키니';
+      if (temp >= 17) return '니트, 가디건, 후드티 ,맨투맨, 청바지';
+      if (temp >= 12) return '두꺼운 가디건,살색 스타킹,트랜치 코트';
+      if (temp >= 10) return '야상, 여러겹껴입기, 코트';
+      if (temp >= 5) return ' 코트, 얇은패딩';
+
       return '두꺼운 코트에 여러겹껴입기, 두꺼운 패딩, 롱패딩';
     },
     airQualityStatus() {
@@ -80,4 +90,4 @@ export default {
   },
 };
 </script>
-``
+
