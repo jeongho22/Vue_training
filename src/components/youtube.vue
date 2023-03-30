@@ -36,7 +36,7 @@
                     class="btn btn-primary"
                     target="_blank"
                 >
-                  바로가기
+                  동영상 바로가기
                 </a>
               </div>
             </div>
