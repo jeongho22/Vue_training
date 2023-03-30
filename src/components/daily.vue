@@ -48,7 +48,7 @@ export default {
       if (!this.weatherData) return '';
       const temp = (this.weatherData.main.temp-1.0) ;
 
-      if (temp >= 27) return '민소매, 반바지, 원피스';
+      if (temp >= 27) return '민소매, 반바지, 원피스','나시';
       if (temp >= 23) return '반팔, 얇은 셔츠, 긴팔 반바지, 면바지';
       if (temp >= 20) return '긴팔 가디건, 후드티, 면바지,슬랙스, 스키니';
       if (temp >= 17) return '니트, 가디건, 후드티 ,맨투맨, 청바지';
