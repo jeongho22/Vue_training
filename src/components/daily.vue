@@ -68,7 +68,7 @@ export default {
     },
   },
   async created() {
-    const lat = 37.3220;
+    const lat = 37.32201;
     const lon = 126.8301;
 
     try {
