@@ -6,7 +6,7 @@
         <div class="card mb-4">
           <div class="card-header">기온 및 추천 옷차림</div>
           <div class="card-body">
-            <p>기온: {{ weatherData.main.temp-2.0 }}℃</p>
+            <p>기온: {{ weatherData.main.temp-1.0 }}℃</p>
             <p>추천 옷차림: {{ temperatureStatus }}</p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default {
   computed: {
     temperatureStatus() {
       if (!this.weatherData) return '';
-      const temp = (this.weatherData.main.temp-2.0) ;
+      const temp = (this.weatherData.main.temp-1.0) ;
 
       if (temp >= 27) return '민소매, 반바지, 원피스';
       if (temp >= 23) return '반팔, 얇은 셔츠, 긴팔 반바지, 면바지';
